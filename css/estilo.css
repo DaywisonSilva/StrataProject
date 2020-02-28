@@ -82,15 +82,6 @@ li{
 .ulalternate li:last-child{
     border: 0;
 }
-.ul-icons{
-    list-style-type: none;
-    padding-left: 0;
-}
-.ul-icons li{
-    display: inline-block;
-    font-size: 2em;
-    color: #49bf9d;
-}
 input, label, textarea, select{
     display: inline-block;
     width: 100%;
@@ -231,9 +222,19 @@ textarea{
 .main-content-position{
     text-align: justify;
 }
+.recent-works-card p{
+    color: rgb(170, 170, 170);
+  
+}
 .recent-works-card img{
     border-radius: 10px;
     overflow: hidden;
+}
+.recent-works-card-title{
+    color: #999999;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 0px -20px 0px;
 }
 .img-right{
     float: right;
@@ -258,6 +259,34 @@ textarea{
     width: 35%;
     left: 0;
     padding: 0px 54px 72px 0px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.main-footer a{
+    border: none;
+}
+.ul-icons{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-icons li{
+    display: inline-block;
+    font-size: 2em;
+}
+.ul-icons a{
+    color: #666;
+}
+.ul-icons a:hover{
+    color: #eeeeee;
+}
+.copyright li{
+    float: right;
+    list-style-type: none;
+}
+.copyright li:first-child a{
+    border-bottom: #666 1px dotted;
+    color: #666;
+    font-weight: bolder;
 }
 /* Grid */
 .row{
