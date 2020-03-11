@@ -26,9 +26,9 @@
             <h1 class="main-header-title">
                 Trabalhos e groselhas de <br>
                 <strong>Daniel Tapias Morales</strong>,<br> 
-                um zé ninguém qualquel<br>
-                Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>.
+                um zé ninguém qualquel  
             </h1>            
+            <p>Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>.</p>
         </header>
         
         <main class="main-content">
@@ -49,7 +49,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a href="images/fulls/01.jpg" class="imagem-link">
-                                <img src="images/thumbs/01.jpg" title="descrição">
+                                <img src="images/thumbs/01.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Magna sed consequat tempus</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -57,7 +57,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/02.jpg" class="imagem-link">
-                                <img src="images/thumbs/02.jpg" title="descrição">
+                                <img src="images/thumbs/02.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Ultricies lacinia interdum</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -65,7 +65,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/03.jpg" class="imagem-link">
-                                <img src="images/thumbs/03.jpg" title="descrição">
+                                <img src="images/thumbs/03.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Tortor metus commodo</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -75,7 +75,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a href="images/fulls/04.jpg" class="imagem-link">
-                                <img src="images/thumbs/04.jpg" title="descrição">
+                                <img src="images/thumbs/04.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Quam neque phasellus</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -83,7 +83,7 @@
                         
                          <article class="recent-works-card">
                             <a href="images/fulls/05.jpg" class="imagem-link">
-                                <img src="images/thumbs/05.jpg" title="descrição">
+                                <img src="images/thumbs/05.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -91,7 +91,7 @@
                         
                          <article class="recent-works-card">
                             <a href="images/fulls/06.jpg" class="imagem-link">
-                                <img src="images/thumbs/06.jpg" title="descrição">
+                                <img src="images/thumbs/06.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Risus ornare lacinia</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -166,8 +166,8 @@
                 <h6>titulo h6</h6>
                 
                 <blockquote cite="http://developer.mozilla.org">
-                  Esta é uma citação tirada da
-                  Mozilla Developer Center.
+                  <p>Esta é uma citação tirada da
+                    Mozilla Developer Center.</p>
                 </blockquote>
                 
                 <p>According to Mozilla's website,
@@ -177,14 +177,12 @@
                 </p>
                 
                 <h4>Preformatado</h4>
-                
-                <pre> 
-                    <code>
+                <!--A tag <pre> considera toda quebra de linha e espaços-->
+                <pre><code>
     &lt;script&gt;
         alert('oi');
     &lt;/script&gt;
-                        </code>
-                </pre>
+                </code></pre>
                 
                 <h4>Listas</h4>
                 
@@ -214,8 +212,8 @@
                         
                         <h5>icons</h5>
                         <ul class="ul-icons">
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-facebook-square"></i></li>
+                            <li><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></li>
+                            <li><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -363,7 +361,7 @@
                 <input type="submit" class="button-default" value="mandar">
                 
                 <h5>Forms</h5>
-                <form action="">
+                <form action="" method="POST">
                     <label for="name">Nome</label>
                     <input type="text" name="name" id="name">
                     
@@ -427,10 +425,10 @@
         </main>
         <footer class="main-footer">
             <ul class="ul-icons">
-                <li><a href="icon-link"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="icon-link"><i class="fab fa-github"></i></a></li>
-                <li><a href="icon-link"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="icon-link"><i class="fab fa-vuejs"></i></a></li>
+                <li><a href="icon-link"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
+                <li><a href="icon-link"><span class="hidden">GitHub</span><i class="fab fa-github"></i></a></li>
+                <li><a href="icon-link"><span class="hidden">facebook</span><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="icon-link"><span class="hidden">Vue.js</span><i class="fab fa-vuejs"></i></a></li>
             </ul>
             <ul class="copyright">
                 <li>Design:<a href="http://html5up.net">&nbsp;HTML5 UP</a></li>

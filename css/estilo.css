@@ -51,6 +51,9 @@ blockquote{
     margin: 2em 0px;
     padding:.5em 0px .5em 1.5em;
 }
+blockquote p{
+    margin-bottom: 0;
+}
 code{
     background-color: #f7f7f7;
     border-radius: .35em;
@@ -70,6 +73,14 @@ ul, ol{
 }
 li{
     padding-left: .5em;
+}
+/*O "display: none", faz com que leitores de tela não enxerguem o texto, então não é indicado para acessibilidade.*/
+.hidden{
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 .ul-alternate{
     list-style-type: none;
